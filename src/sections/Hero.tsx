@@ -53,11 +53,20 @@ function Avatar() {
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.7, delay: 0.2 }}
-      className="relative mx-auto md:mx-0 w-48 h-48 md:w-56 md:h-56 shrink-0"
+      className="relative mx-auto md:mx-0 w-54 h-48 md:w-56 md:h-56 shrink-0"
     >
       <div className="absolute inset-0 rounded-full bg-gradient-to-br from-accent-500 to-violet-500 blur-lg opacity-30 animate-pulse-slow" />
-      <div className="relative w-full h-full rounded-full bg-gradient-to-br from-accent-600 to-violet-600 flex items-center justify-center shadow-2xl shadow-accent-500/20 border-4 dark:border-dark-700 border-white">
-        <span className="text-5xl md:text-6xl font-extrabold text-white select-none">RK</span>
+      <div className="relative w-full h-full rounded-full bg-white flex items-center justify-center shadow-2xl shadow-accent-500/20 border-4 dark:border-dark-700 border-white overflow-hidden">
+        <img
+          src="/rajat.jpg"
+          alt="Rajat Kasaudhan"
+          className="w-full h-full object-cover object-top scale-100"
+          onError={(e) => {
+            // Fallback in case image is missing
+            e.currentTarget.style.display = 'none';
+            e.currentTarget.parentElement!.innerHTML = '<span class="text-5xl md:text-6xl font-extrabold text-accent-600 select-none">RK</span>';
+          }}
+        />
       </div>
     </motion.div>
   );

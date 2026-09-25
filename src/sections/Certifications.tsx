@@ -50,7 +50,7 @@ export default function Certifications() {
                     {cert.date}
                   </span>
                 )}
-                {cert.credentialUrl ? (
+                {cert.credentialUrl && (
                   <a
                     href={cert.credentialUrl}
                     target="_blank"
@@ -59,10 +59,6 @@ export default function Certifications() {
                   >
                     Verify <ExternalLink size={11} />
                   </a>
-                ) : (
-                  <span className="ml-auto text-xs dark:text-slate-600 text-slate-400 italic">
-                    No link available
-                  </span>
                 )}
               </div>
             </motion.div>
