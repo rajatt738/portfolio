@@ -78,7 +78,7 @@ portfolio/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/rajat738/portfolio.git
+git clone https://github.com/rajatt738/portfolio.git
 cd portfolio
 
 # 2. Install dependencies
@@ -184,4 +184,4 @@ Works seamlessly in:
 
 ---
 
-Built with ❤️ by [Rajat Kasaudhan](https://github.com/rajat738)
+Built with ❤️ by [Rajat Kasaudhan](https://github.com/rajatt738)

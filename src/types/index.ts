@@ -62,6 +62,7 @@ export interface Education {
   field: string;
   period: string;
   cgpa?: string;
+  percentage?: string;
   location: string;
 }
 

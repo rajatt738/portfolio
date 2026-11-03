@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code2, Smartphone, Server, GitBranch } from 'lucide-react';
+import { Code2, Smartphone, Server, Brain } from 'lucide-react';
 import SectionHeading from '@/components/SectionHeading';
 
 const highlights = [
@@ -19,9 +19,9 @@ const highlights = [
     desc: 'REST API development with Node.js, Express.js, and Spring Boot.',
   },
   {
-    icon: <GitBranch size={20} className="text-amber-400" />,
-    label: 'Production Engineering',
-    desc: 'Debugging and monitoring production systems using Sentry and Axiom.',
+    icon: <Brain size={20} className="text-amber-400" />,
+    label: 'Generative AI',
+    desc: 'Familiar with LLMs, RAG, AI Agents, Prompt Engineering, and LLM Orchestration.',
   },
 ];
 
@@ -45,17 +45,17 @@ export default function About() {
             className="space-y-5 text-base dark:text-slate-300 text-slate-700 leading-relaxed"
           >
             <p>
-              I'm <strong className="dark:text-white text-slate-900">Rajat Kasaudhan</strong>, a Software Development Engineer based in Greater Noida, India, currently working at{' '}
-              <strong className="dark:text-white text-slate-900">4 Way Technologies Inc.</strong> as an SDE-1. I build and maintain production-level applications across web and mobile platforms.
+              I'm <strong className="dark:text-white text-slate-900">Rajat Kasaudhan</strong>, a Software Development Engineer based in Noida, India. I have hands-on experience building and maintaining production-grade web and mobile applications at{' '}
+              <strong className="dark:text-white text-slate-900">4 Way Technologies Inc.</strong> as an SDE-1.
             </p>
             <p>
-              My day-to-day work involves developing features for a live AI-powered chat platform — working across the <strong className="dark:text-white text-slate-900">React.js</strong> web client and <strong className="dark:text-white text-slate-900">React Native</strong> mobile app. I implement complex flows such as memory and context imports, async API synchronization, and UI improvements, while monitoring production health via <strong className="dark:text-white text-slate-900">Sentry</strong> and <strong className="dark:text-white text-slate-900">Axiom</strong>.
+              My day-to-day work involved developing <strong className="dark:text-white text-slate-900">15+ production features</strong> for <em>ChatReal</em> — an AI-powered chat platform — working across the <strong className="dark:text-white text-slate-900">React.js</strong> web client and <strong className="dark:text-white text-slate-900">React Native</strong> mobile app. I've shipped real-time messaging, payment flows, authentication, and 3D avatar customization, while monitoring production health via <strong className="dark:text-white text-slate-900">Sentry</strong> and <strong className="dark:text-white text-slate-900">Axiom</strong>.
             </p>
             <p>
-              My backend experience includes building RESTful APIs with <strong className="dark:text-white text-slate-900">Node.js / Express.js</strong> and <strong className="dark:text-white text-slate-900">Spring Boot (Java)</strong>, working with <strong className="dark:text-white text-slate-900">MySQL, PostgreSQL, and MongoDB</strong>, and implementing <strong className="dark:text-white text-slate-900">JWT authentication</strong> flows. I use <strong className="dark:text-white text-slate-900">TypeScript</strong> across both frontend and backend for type safety.
+              My backend experience includes building RESTful APIs with <strong className="dark:text-white text-slate-900">Node.js / Express.js</strong> and <strong className="dark:text-white text-slate-900">Spring Boot (Java)</strong>, working with <strong className="dark:text-white text-slate-900">MySQL, PostgreSQL, MongoDB, and TypeSense</strong>, and implementing <strong className="dark:text-white text-slate-900">JWT & RBAC</strong> authentication. I'm also familiar with <strong className="dark:text-white text-slate-900">Generative AI</strong> — LLMs, RAG pipelines, AI Agents, and Prompt Engineering.
             </p>
             <p>
-              I'm a B.Tech graduate in Computer Science & Engineering from <strong className="dark:text-white text-slate-900">Galgotias University</strong> (2022–2026) with a strong foundation in data structures, algorithms, and object-oriented design.
+              I'm a B.Tech graduate in Computer Science &amp; Engineering from <strong className="dark:text-white text-slate-900">Galgotias University</strong> (2022–2026) with a strong foundation in data structures, algorithms, and object-oriented design. <strong className="dark:text-white text-slate-900">Immediate Joiner.</strong>
             </p>
           </motion.div>
 

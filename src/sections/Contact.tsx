@@ -139,7 +139,7 @@ export default function Contact() {
               <ContactInfoItem icon={<Mail size={18} className="text-accent-400" />} label="Email" value={contactInfo.email} href={`mailto:${contactInfo.email}`} />
               <ContactInfoItem icon={<Phone size={18} className="text-emerald-400" />} label="Phone" value={contactInfo.phone} href={`tel:${contactInfo.phone.replace(/[^+\d]/g, '')}`} />
               <ContactInfoItem icon={<MapPin size={18} className="text-rose-400" />} label="Location" value={contactInfo.location} />
-              <ContactInfoItem icon={<GithubIcon size={18} className="text-slate-400" />} label="GitHub" value="github.com/rajat738" href={contactInfo.github} />
+              <ContactInfoItem icon={<GithubIcon size={18} className="text-slate-400" />} label="GitHub" value="github.com/rajatt738" href={contactInfo.github} />
               <ContactInfoItem icon={<LinkedinIcon size={18} className="text-blue-400" />} label="LinkedIn" value="linkedin.com/in/rajat-kasaudhan" href={contactInfo.linkedin} />
             </div>
           </motion.div>
